@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  background-image: url("backround.png");
+}
+.all-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 0px;
+  border-radius: 5px;
+  background-image: url("backround.png");
+  background-size: 40vh;
+  background-blend-mode: multiply;
+  background-color: #FFFFFF;
+}
+h3{
+  font-family: verdana;
+}
+img{
+  height: 80px;
+}
+.ccsd{
+  padding: 2vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+header{
+  width: 100%;
+}
+.text{
+  color: #000000;
+  font-size: 40px;
+  height: 5vh;
+}
+.search{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #000000;
+  outline: none;
+  background-color: #FB1B1B;
+}
+.navbar{
+  display: flex;
+  background-color: #FB1B1B;
+  align-items: center;
+  padding: 1vh;
+  border: 3px solid black;
+  border-top: none;
+  border-left:  none;
+  border-right:none;
+font-family: 'Ubuntu', sans-serif;
+}
+button{
+  border-radius: 8px;
+  background-color: #DFDFDF;
+height: 30px;
+width: 80px;
+}
+button:hover {
+  background-color: #DFDFDF;
+  border: 1px solid;
+}
+button:active {
+  background-color: #FB1B1B;
+}
+.sea{
+  margin-left: 35%;
+  margin-right: 40%;
+  display: flex;
+}
+::placeholder{
+  color: #000000;
+} 
+.bottom-button{
+  width: 40%;
+ padding-left: 45%;
+}
+.load{
+width: 30%;
+height: 5vh;
+}
+.fighting{
+background-color: #d68c43;
+}
+.ground{
+background-color: #684132;
+}
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+.ghost {
+  background-color: rgb(247, 247, 247);
+}
+.electric {
+  background-color: rgb(255, 255, 161);
+}
+.bug {
+  background-color: #F6D6A7;
+}
+.poison {
+  background-color: #cca6dc;
+}
+.normal {
+  background-color: #F4F4F4;
+}
+.fairy {
+  background-color: #e99898;
+}
+.fire {
+  background-color: #FBE3DF;
+}
+.grass {
+  background-color:#E2F9E1;
+}
+.water {
+  background-color:#ACC8E5;
+}
+.psychic{
+background-color: #f77cf2;
+}
+.allpokemons {
+border-radius: 5vh;
+border: 2px solid black;
+padding-bottom: 1vh;
+padding-top: 1vh;
+transition: .2s;
+}
+.allpokemons:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 1300px) {
+  .all-container{
+    grid-template-columns: auto auto auto;
+  }
+    .sea{
+    margin-left: 25%;
+    margin-right: 30%;
+    display: flex;
+  }
+}
+@media (max-width: 1000px) {
+  .all-container{
+    grid-template-columns: auto auto;
+
+  }
+    .sea{
+      margin-left: 17.5%;
+      margin-right: 20%;
+      display: flex;
+    }
+}
+@media (max-width: 650px) {
+  .all-container{
+    grid-template-columns: auto;
+  }
+}
+@media (min-width: 1700px){
+  .sea{
+    margin-left: 35%;
+    margin-right: 55%;
+    display: flex;
+  }
+}
+@media (min-width: 2000px){
+  .sea{
+    margin-left: 35%;
+    margin-right: 50%;
+    display: flex;
+  }
+}
+@media (min-width: 2500px){
+  .sea{
+    margin-left: 39%;
+    margin-right: 50%;
+    display: flex;
+  }
+}
+@media (min-width: 600px){
+
+
+}
+
+
+
+
+
+.searchCard{
+  text-transform: uppercase;
+  padding-top: 5vh;
+  margin-top: 10vh;
+  border: 2px solid #000000;
+  text-align: center;
+  width: 30%;
+  height: 30vh;
+  margin-left: 35%;
+  border-radius: 3vh;
+}
+.searchCard:hover {
+    transform: scale(1.1);
+  }
